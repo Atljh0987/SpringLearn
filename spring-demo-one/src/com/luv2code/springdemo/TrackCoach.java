@@ -23,7 +23,7 @@ public class TrackCoach implements Coach {
 		return "Just Do Id: " + fortuneService.getFortune();
 	}
 
-	// add an init meth
+	// add an init method
 	public void doMyStartupStuff() {
 		System.out.println("TrackCoach: inside method doMyStartupStuff");
 	}
