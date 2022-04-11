@@ -52,7 +52,7 @@ public class TennisCoach implements Coach {
 	@Override
 	public String getDailyFortune() {
 		// TODO Auto-generated method stub
-		return fortuneService.getFortue();
+		return fortuneService.getFortune();
 	}
 
 }

@@ -18,7 +18,7 @@ public class RandomFortuneService implements FortuneService {
 	private Random myRandom = new Random();
 	
 	@Override
-	public String getFortue() {
+	public String getFortune() {
 		// pick a random string from the array
 		int index = myRandom.nextInt(data.length);
 		
